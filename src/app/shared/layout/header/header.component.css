@@ -1,0 +1,27 @@
+.title{
+  background-color: #0d89ec;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.title img{
+  border-radius: 15px;
+  max-width: 100px;
+display: block;
+margin: 5px auto;
+
+}
+
+:host ::ng-deep
+.p-card{
+  background-color: black;
+
+}
+.teste{
+
+
+    color: black;
+
+}
