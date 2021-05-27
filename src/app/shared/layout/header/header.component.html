@@ -1,16 +1,15 @@
 <div class="title">
   <img [src]="logo" alt="logo">
 </div>
-<p-sidebar [(visible)]="visibleSidebar1" [baseZIndex]="10000">
+<p-sidebar  [(visible)]="visibleSidebar1" [baseZIndex]="10000">
   <h3>Menu de Noticias</h3>
+  <button [routerLink]="['/']" routerLinkActive="router-link-active"
+   pButton pRipple type="button" label="Covid" class="p-button-text inativos"></button>
 
-  <button routerLink="" pButton pRipple type="button" label="Covid"
-    class="p-button-secondary p-button-text"></button>
-  <br>
-  <button routerLink="/noticia-previsao" pButton pRipple type="button" label="Previsão"
-    class="p-button-secondary p-button-text"></button>
+   <button [routerLink]="['/noticia-previsao']" routerLinkActive="router-link-active"  pButton pRipple
+    type="button" label="Previsão" class="p-button-text inativos"></button>
 </p-sidebar>
 <button pButton pRipple type="button" (click)="visibleSidebar1 = true" class="p-button-text">
   <i class="teste pi pi-bars" style="font-size: 2rem"></i>
 </button>
-<router-outlet></router-outlet>
+

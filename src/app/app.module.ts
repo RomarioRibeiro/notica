@@ -13,6 +13,7 @@ import { NoticiaCovidComponent } from './recursos/noticia-covid/noticia-covid.co
 import { NoticiaPrevisaoComponent } from './recursos/noticia-previsao/noticia-previsao.component';
 import {CarouselModule} from 'primeng/carousel';
 import {HttpClientModule} from '@angular/common/http';
+import {MenuModule} from 'primeng/menu';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import {HttpClientModule} from '@angular/common/http';
     SidebarModule,
     BrowserAnimationsModule,
     CarouselModule,
-    HttpClientModule
+    HttpClientModule,
+    MenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]

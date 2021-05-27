@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+.ativos {
+  background-color: aliceblue;
+  border-radius: 4px;
+  color: antiquewhite;
+  padding:  5px;
+}
+
+.inativos {
+  display: flex;
+  background-color: #ffcdd2;
+  border-radius: 4px;
+  color: #c63737;
+  padding: 5px;
+  width: 100%;
+}
+main{
+  margin-bottom: 215px;
+}
+
+.p-card{
+ border-radius: 4px;
+margin-top: 40px;
+
+}
